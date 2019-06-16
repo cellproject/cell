@@ -4,7 +4,6 @@
   "description": "A lightweight search engine focused on privacy.",
   "main": "index.js",
   "scripts": {
-
   },
   "repository": {
     "type": "git",
