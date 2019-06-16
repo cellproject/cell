@@ -1,0 +1,66 @@
+Crawler
+|
+| Data structures
+| |
+| | 
+
+
+Index
+|
+| Architecture
+| |
+| | The index will be three essential components.
+| | * The server - recieves and responds to incoming queries. It implements the network protocol.
+| | * The parser - performs tokenization on a page, extracts metadata lexical categorisation, simple NLP, section
+| |   recognition. Note that this does not include normalisation (extracting text and removing HTML/code) which
+| |   is done by the crawler. It is also responsible for selecting keywords from search queries.
+| | 
+| | * The memory - the actual data structure used to store indexed information, and links. Parhaps a inverted
+| |   index. This data structure must internally support insertion and selection methods. This may include page
+| |   ranking.
+| |
+| | Everything will be represented as JSON fundementaly. All network communications will be conducted via AJAX.
+| | Secondary components of the index include codecs for compression and disk storage formats.
+|
+| Storage techniques
+| |
+|
+| Index size
+| |
+| 
+| Lookup speed
+| |
+|
+| Decay
+| |
+| |
+| | Compression
+| | |
+| | |
+|
+| Robustness
+| |
+| | Paralellism
+| | |
+|
+| Data structures
+| |
+| | Suffix array
+| | | 
+| | | 
+| |
+| | Inverted index
+| | |
+| | | 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+App
