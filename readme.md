@@ -1,2 +1,2 @@
 # cell
-A lightweight search engine, focused on privacy.
+A lightweight search engine.
