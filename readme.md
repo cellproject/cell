@@ -1,2 +1,2 @@
 # cell
-A lightweight search engine.
+The web crawler used by the cell search engine.
